@@ -8,7 +8,8 @@ const luckPhrases = [
   'Você precisa fazer aquilo que pensa que não é capaz de fazer.',
   'Só se pode alcançar um grande êxito quando nos mantemos fiéis a nós mesmos.',
   'Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito para ser insignificante.',
-  'Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.'
+  'Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.',
+  'Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.'
 ]
 let randomNumber = Math.round(Math.random() * 10);
 let chosenPhrase = luckPhrases[randomNumber]
